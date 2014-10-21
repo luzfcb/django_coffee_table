@@ -33,11 +33,12 @@ To use coffee_table in your project:
 
 1. Set up dependencies according to their respective documentation:
 
+* `django.contrib.humanize <https://docs.djangoproject.com/en/dev/ref/contrib/humanize/>`_
 * `linaro-django-pagination <https://pypi.python.org/pypi/linaro-django-pagination/>`_
 * `django-resort <https://pypi.python.org/pypi/django_resort/0.1.0>`_
 * `django-tag-parser <https://pypi.python.org/pypi/django-tag-parser>`_
 
-2. Include `django_coffee_table` in your `INSTALLED_APPS`.
+2. Include `coffee_table` in your `INSTALLED_APPS`.
 
 3. Open your template and load up the coffee_table tags library::
 
